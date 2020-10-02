@@ -30,7 +30,7 @@ rapidly building custom designs.
 
 ## Author
 
-* **Rafaek Sana Montevechio** - [LinkedIn](https://www.linkedin.com/in/rafaelsanamontevechio)
+* **Rafael Sana Montevechio** - [LinkedIn](https://www.linkedin.com/in/rafaelsanamontevechio)
 
 
 ## Licença
