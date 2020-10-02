@@ -1,7 +1,8 @@
 # Rafael Sana Montevechio - Resume
 
-Este projeto é o código-fonte do curriculo online de Rafael Sana Montevechio, disponível em: https://resume.rafaelsanamontevechio.vercel.app
+[![HitCount](https://hits.dwyl.com/rafaelsanamontevechio/RafaelSanaMontevechio/resume.svg)](https://hits.dwyl.com/rafaelsanamontevechio/RafaelSanaMontevechio/resume)
 
+Este projeto é o código-fonte do curriculo online de Rafael Sana Montevechio, disponível em: https://resume.rafaelsanamontevechio.vercel.app
 
 ## Inicio
 
