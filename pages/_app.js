@@ -7,11 +7,11 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <React.Fragment>
-        {/* <style jsx global>
-        {`
+        {/**  <style jsx global>
+          {`
             @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
-    `}
-        </style>*/}
+          `}
+        </style> */}
         <link
           href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap"
           rel="stylesheet"
