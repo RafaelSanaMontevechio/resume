@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdDoneAll } from 'react-icons/md';
 import EducationItem from './EducationItem';
 
 const degrees = [
@@ -24,6 +25,22 @@ const Education = () => {
         {degrees.map((degree, i) => (
           <EducationItem key={`i${i}`} degree={degree} />
         ))}
+      </div>
+      <h3 className="text-4xl text-center font-bold text-orange uppercase mt-10">
+        Languages
+      </h3>
+      <div className="leading-none mx-6 mb-4 bg-white rounded-lg shadow-lg  md:mx-0 md:grid md:grid-cols-2">
+        <div className="py-6 px-6 mx-6 md:mx-0 md:px-16">
+          <h4 className="text-lg uppercase font-bold mb-2">Languages</h4>
+          <p className="md:text-2xl uppercase">
+            English language
+            <br />
+            <span className="text-lg normal-case font-bold">Wizard</span>
+          </p>
+          <p className="mt-2">
+            <MdDoneAll className="inline-block text-green-500" /> Intermediary
+          </p>
+        </div>
       </div>
     </div>
   );

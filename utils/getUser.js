@@ -6,7 +6,19 @@ const getUser = async (userName) => {
   );
   const originalRepos = await resRepos.json();
 
-  const dontShowRepos = ["RafaelSanaMontevechio/curriculo"];
+  const dontShowRepos = [
+    'RafaelSanaMontevechio/curriculo',
+    'RafaelSanaMontevechio/resume',
+    'RafaelSanaMontevechio/Eng2',
+    'RafaelSanaMontevechio/Eng3',
+    'RafaelSanaMontevechio/Engenharia4-trabalho1',
+    'RafaelSanaMontevechio/Engenharia4-trabalho2',
+    'RafaelSanaMontevechio/tecnicasProgramacao4',
+    'RafaelSanaMontevechio/Estatistica-trabalho',
+    'RafaelSanaMontevechio/Periodo4-trabalho',
+    'RafaelSanaMontevechio/Factory',
+    'RafaelSanaMontevechio/Proxy',
+  ];
 
   const isNotFork = (repo) => !repo.fork;
   const dontShowFilter = (repo) => dontShowRepos.indexOf(repo.full_name) === -1;

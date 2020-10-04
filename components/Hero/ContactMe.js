@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 
 const ContactMe = () => {
   return (
@@ -11,13 +11,20 @@ const ContactMe = () => {
         Contact Me
       </h3>
       <p>
-        <FaLinkedin className="text-4xl md:text-6xl inline-block mr-6" />
-        <FaGithub className="text-4xl  md:text-6xl  inline-block mr-6" />
-        <br />
-        <span className="inline-block mt-4 ml-1">
-          <MdEmail className="inline-block" /> rafael_sana@hotmail.com
-        </span>
+        <a
+          href="https://www.linkedin.com/in/rafaelsanamontevechio"
+          target="blank"
+        >
+          <FaLinkedin className="text-4xl md:text-6xl inline-block mr-6 hover:text-color" />
+        </a>
+        <a href="https://www.github.com/rafaelsanamontevechio" target="blank">
+          <FaGithub className="text-4xl  md:text-6xl  inline-block mr-6 hover:text-color" />
+        </a>
       </p>
+      <div className="mt-2 flex items-center py-2">
+        <MdEmail className="inline-block text-2xl" />
+        <span>rafael_sana@hotmail.com</span>
+      </div>
     </div>
   );
 };
